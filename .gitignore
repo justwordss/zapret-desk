@@ -1,0 +1,12 @@
+.DS_Store
+.build/
+.build-local/
+dist/
+__pycache__/
+*.py[cod]
+*.log
+.env
+.env.*
+*.pem
+*.key
+telegram.json
