@@ -35,6 +35,7 @@ done > "$RES/Data/strategy-migrations.tsv"
 printf '# Managed by Zapret Desk\n' > "$RES/Data/lists/list-general-user.txt"
 printf '# Managed by Zapret Desk\n' > "$RES/Data/lists/list-exclude-user.txt"
 # Optional empty CIDR lists are omitted rather than interpreted as match-all.
+cp "$ROOT/LICENSE" "$RES/Licenses/ZapretDesk.txt"
 cp "$ROOT/backend/LICENSE" "$RES/Licenses/zapret-for-mac.txt"
 cp "$ROOT/ThirdParty/Flowseal-LICENSE.txt" "$RES/Licenses/Flowseal.txt"
 cp "$ROOT/ThirdParty/zapret-LICENSE.txt" "$RES/Licenses/zapret.txt"
