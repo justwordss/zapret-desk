@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Egor Kulishov
+Copyright (c) 2026 justwordss
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -20,15 +20,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
----
-
-This project reimplements, for macOS, the behaviour of:
-
-  * Flowseal/zapret-discord-youtube — MIT License
-    https://github.com/Flowseal/zapret-discord-youtube
-  * bol-van/zapret — MIT License
-    https://github.com/bol-van/zapret
-
-The strategy definitions under strategies/, the domain and CIDR lists under
-lists/ and the fake payload blobs under fakes/ originate from those projects
-and remain under their respective MIT licenses.
+Third-party components retain their original copyright notices and licenses.
+See backend/LICENSE, telegram/LICENSE and ThirdParty/.
